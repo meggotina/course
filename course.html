@@ -11,9 +11,14 @@
     .menu { display:none; }
     .menu.open { display:block; }
     .hero {text-align: center;}
+    .container {
+        max-width: 900px;
+        margin: auto;
+        }
   </style>
 </head>
 <body>
+
 <button onclick="toggleMenu()">Menu</button>
 
 <div id="menu" class="menu">
@@ -29,14 +34,18 @@
 
 
 <section id="home" class="hero">
+    <div class="container">
   <h1 style="text-align:center;">Kurkkumopo</h1>
   <img src="https://images.cdn.yle.fi/image/upload/c_crop,h_3375,w_6000,x_0,y_365/ar_1.7777777777777777,c_fill,g_faces,h_431,w_767/dpr_2.0/q_auto:eco/f_auto/fl_lossy/v1728481724/39-1360951670687eb4dc90">
     <p>The legendary Finnish cucumber scooter.</p>
+</div>
 </section>
 
 <section id="about" >
+<div class="container">
   <h2>About</h2>
   <p>Shaped like cucumber, feels like cucumber</p>
+  </div>
 </section>
 
 <script>
